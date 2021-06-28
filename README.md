@@ -1,1 +1,1 @@
-# python-project
+# projects with HTML, CSS, JS
