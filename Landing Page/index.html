@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Food<span>.</span></a>
+      <ul class="navigation">
+       <li><a href="#banner">Home</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#menu">Menu</a></li>
+       <li><a href="#expert">Expert</a></li>
+       <li><a href="#testimonials">Testimonials</a></li>
+       <li><a href="#contact">Contact</a></li>
+        </ul>
+      </header>
+      <section class="banner" id="banner">
+      <div class="content">
+        <h2>Good Food is Good Mood</h2>
+        <p> Good food brings smile to your hunger</p>
+        <a href="#" class="btn">Our Menu</a>
+      </div>
+
+      </section>
+      <section class="about" id="about">
+       <div class="row">
+        <div class="col20">
+          <h2 class="titleText"><span>A</span>bout Us</h2>
+          <p> Food is the source of energy and keeps the whole tradition of the nation<br><br>Food is the source of energy and keeps the whole tradition of the nation</p>
+        </div>
+        <div class="col20">
+          <div class="imgBx">
+            <img src="foodJointPainRelief-142336977-770x533-1.jpg">
+          </div>
+        </div>
+       </div>
+     </section>
+    
+   
+
+<section class="menu" id="menu">
+  <div class="title">
+   <h2 class="titleText">Our<span>M</span>enu</h2> 
+   <p>Food is the source of energy and keeps the whole tradition of the nation<br><br>Food is the source of energy and keeps the whole tradition of the nation</p>
+  </div>
+ <div class="content">
+   <div class="box">
+     <div class="imgBx">
+        <img src="menu.jpg" width="700" height="500">
+     </div>
+     <div class="text">
+      <h3>Special Salads<h3>
+     </div>
+   </div>
+   <div class="box">
+     <div class="imgBx">
+        <img src="soup.jpg" width="700" height="500" >
+      </div>
+     <div class="text">
+      <h3>Special Soups<h3>
+     </div>
+   </div>
+   <div class="box">
+     <div class="imgBx">
+        <img src="pasta.jpg" width="700" height="500">
+     </div>
+     <div class="text">
+      <h3>Special pasta<h3>
+     </div>
+   </div>
+ </div>
+ <div class="title">
+   <a href="#" class="btn">View All</a>
+</section>
+    <script type="text/javascript">
+      window.addEventListener('scroll', function(){
+        const header = document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0);
+      })
+    </script>
+  </body>
+</html>
